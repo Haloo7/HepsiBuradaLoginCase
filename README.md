@@ -6,7 +6,9 @@ Hepsi burada uygulamasına giriş yapıp, giriş yaptıktan sonra kullanıcı ad
 # Kullanılan Teknolojiler
 
 Appium
+
 TestNG
+
 Maven
 
 ## Nasıl Çalışır?
@@ -15,7 +17,7 @@ Projeyi indirip testng.xml dosyasındaki username ve password alanını doldurma
 
 ## Eklenecek Caseler
 
-Appiumun daha başında biri olarak Product case'inde yapıları dinamik olarak kurmada zorlandığımı söyleyebilirim. Ancak bu çalışmayı başarısız(readibility,reusability,maintainability) olarak da bulsanız appiumu iyi bir seviyede öğrendikten sonra dönüp bu projeye product case'ini de kesinlikle ekleyeceğim.
+Appiumun daha başında biri olarak Product case'inde yapıları dinamik olarak kurmada zorlandığımı söyleyebilirim. Dolayısıyla product case'i için yapabildiğim kısmı yorum satırına aldım ve testng.xml dosyamdan çıkarttım. Ancak bu çalışmayı başarısız(readibility,reusability,maintainability) olarak da bulsanız appiumu iyi bir seviyede öğrendikten sonra dönüp bu projeye product case'ini de kesinlikle ekleyeceğim.
 
 ## Geliştiren
 

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-15T19:14:46Z" name="HepsiBurada" finished-at="2021-02-15T19:16:02Z" duration-ms="76266">
+    <groups>
+    </groups>
+    <test started-at="2021-02-15T19:14:46Z" name="HepsiBuradaLoginProcess" finished-at="2021-02-15T19:14:49Z" duration-ms="3067">
+      <class name="hepsiburadacase.CaseTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hepsiburadacase.CaseTests@36060e]" started-at="2021-02-15T19:14:46Z" name="setUp" finished-at="2021-02-15T19:14:49Z" duration-ms="3050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hepsiburadacase.CaseTests@36060e]" started-at="2021-02-15T19:14:49Z" name="tearDown" finished-at="2021-02-15T19:14:49Z" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at hepsiburadacase.CaseTests.tearDown(CaseTests.java:124)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hepsiburadacase.CaseTests -->
+    </test> <!-- HepsiBuradaLoginProcess -->
+    <test started-at="2021-02-15T19:14:49Z" name="HepsiBuradaProductProcess" finished-at="2021-02-15T19:16:02Z" duration-ms="73105">
+      <class name="hepsiburadacase.CaseTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hepsiburadacase.CaseTests@62010f5c]" started-at="2021-02-15T19:14:49Z" name="setUp" finished-at="2021-02-15T19:14:52Z" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="productTestCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hepsiburadacase.CaseTests@62010f5c]" started-at="2021-02-15T19:14:52Z" name="productTestCase" finished-at="2021-02-15T19:16:02Z" duration-ms="70069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HepsiBuradaApp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dod_title]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pi_product_list_item_image]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hepsiburadacase.CaseTests@62010f5c]" started-at="2021-02-15T19:16:02Z" name="tearDown" finished-at="2021-02-15T19:16:02Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at hepsiburadacase.CaseTests.tearDown(CaseTests.java:124)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hepsiburadacase.CaseTests -->
+    </test> <!-- HepsiBuradaProductProcess -->
+  </suite> <!-- HepsiBurada -->
+</testng-results>

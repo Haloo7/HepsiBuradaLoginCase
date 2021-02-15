@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HepsiBurada">
+	<test name="HepsiBuradaLoginProcess">
+		<parameter name="username" value="" />
+		<parameter name="password" value="" />
+		<parameter name="appName" value="HepsiBuradaApp" />
+		<parameter name="loginExpectedResult" value="Hoşgeldiniz" />
+		<parameter name="logoutButtonId" value="ll_user_account_menu_logout" />
+		<classes>
+			<class name="hepsiburadacase.CaseTests">
+			<methods>
+			<include name="loginTestCase"></include>
+			</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 
